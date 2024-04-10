@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(37, 44, 85);
+  }
+
+  .login-container {
+    margin-top: 800px;
+    max-width: 400px;
+    /* min-height: 600px; */
+    margin: 100px auto;
+    padding: 20px;
+    background-color:  rgb(37, 44, 85);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-container h1 {
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+    color: #fff;
+  }
+
+  .login-container p{
+    /* text-align: center; */
+    margin-bottom: 50px;
+    color: #fff;
+
+  }
+
+  .login-container p span a{
+    /* text-align: center; */
+    margin-bottom: 50px;
+    color: #fff;
+    text-decoration: none;
+    color: #0056b3;
+  }
+  
+  .login-container label {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .login-container input[type="text"],
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px ;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: rgb(52, 59, 94);
+  }
+
+  .login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  
+@media screen and (max-width: 768px) {
+  .login-container {
+      max-width: 80%; /* Adjust maximum width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .login-container {
+      padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .login-container input[type="submit"] {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
