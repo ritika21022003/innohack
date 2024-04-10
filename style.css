@@ -1,0 +1,116 @@
+*{
+    margin: 0.5px;
+    padding: 0.5px;
+    color: #ffff;
+    background-color: rgb(34, 40, 77);
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p
+{
+    color: rgba(240, 248, 255, 0.699);
+}
+
+hr{
+    color:  rgba(240, 248, 255, 0.699);
+}
+
+header{
+    box-shadow:  rgb(26, 30, 58);
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(34, 40, 77);
+    /* background:  rgb(30, 40, 70); */
+}
+
+.grid-item {
+    background-color: rgb(50, 54, 83);
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+} */
+/* .button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+} */
+
+/* .grid {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container input[type="text"], 
+.input-container select {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none; */
